@@ -1,0 +1,92 @@
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+}
+
+.coin-name {
+    margin-left: -4rem;
+}
+
+.coin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+}
+
+.coin-row:hover {
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+img {
+    height: 40px;
+    margin-right: 8px;
+    width: auto;
+}
+.green {
+    color: #0ecb0e;
+}
+.red {
+    color: red;
+}
+.price {
+    cursor: pointer;
+    transition: .3s color;
+}
+.price:hover {
+    color: #6900ff;
+}
+.img-symbol {
+    display: flex;
+    align-items: center;
+}
+
+.img-symbol + p {
+    text-align: start;
+}
+
+@media screen and (max-width: 720px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+}
+.pagination button {
+    color: white;
+    border: 1px solid #6900ff;
+    box-shadow: 0px 0px 8px #6900ff;
+    background-color: #6900ff;
+    border-radius: 8px;
+    padding: .5rem;
+    font-weight: 800;
+    margin: 0px 2px;
+    opacity: .8;
+    transition: .3s all;
+    cursor: pointer;
+}
+.pagination button.active {
+    opacity: 1;
+}

@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    font-size: 2rem;
+    color: #6900ff;
+}
+.purple {
+    color: #6900ff;
+}
+input {
+    font-size: 1rem;
+    background: transparent;
+    color: aliceblue;
+    transition: .3s all;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: inset 2px 5px 10px #6900ff ;
+}
+input:focus {
+    outline: none;
+    transition: .3s all;
+    box-shadow: 2px 5px 10px #6900ff,
+                inset 0px 1px 4px #6900ff ;
+    /* border: transparent; */
+}
